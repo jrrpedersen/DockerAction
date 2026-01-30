@@ -1,2 +1,2 @@
 # DockerAction
-A docker container actions that handles input and output writes a job summary
+A docker container actions that handles input and output writes a job summary.
