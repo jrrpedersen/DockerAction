@@ -1,6 +1,7 @@
 #!/bin/sh
 echo "Hello $@"
-
+# piping a name-value pair to the environment file in 
+# GitHub Actions
 echo "answer=42" >> $GITHUB_OUTPUT
 
 echo "### Hello $@! :rocket:" >> $GITHUB_STEP_SUMMARY
